@@ -3,7 +3,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hello World!</title>
+  <title>My Personal Website!</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,53 +18,39 @@
   
 <body>
 
-<div class="nav-menu">
-  <a class="active" href="index.html">Home</a>
-  <a href="about-me.html">About Me</a>
-   <a href="contact-me.html">Contact Me</a>
-   <a href="suggestions.html">Suggestions</a>
-   <a href="library.html">Library</a>
-</div>
+<header>
 
-
-
-  
-  <header>
-
-    <nav class="navbar navbar-expand-lg bg-light">
-      
-      <div class="container">
-        <a class="navbar-brand" href="#">Kelly Jerome</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-            <li id="nav-item">
-                  <img src="projectfour.jpg" class="img-fluid" alt="profile photo">
-            </li>
-</ul>
-
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">Kelly Jerome</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+         <li id="nav-item">
+           <img src="projectfour.jpg" class="img-fluid" alt="profile photo">
+         </li>
+        </ul>
+      </div>
+  </div> 
 
 <div class="wrapper">
 
-          <div class="dropdown">
-      <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-      Social<a href="https://www.linkedin.com/in/kelly-jerome-3889b8186">
-      </a>
-    
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="linkedin"><a href="href="https://www.linkedin.com/in/kelly-jerome-3889b8186">LinkedIn</a></a></li>
-      </ul>
-    </div>
+<a href="https://www.linkedin.com/in/Kelly-Jerome-Web-Devs" class="btn btn-primary mt-4 mb-3">Social</a> 
+
 
 </div>
-          
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" type="button">Contact</button>
-
-        </div>
-      </div>
+<div class="wrapper">
+    
+<input type="button" onclick="location.href='suggestions.html';" class="btn btn-primary mt-4 mb-3" value="Suggestions" />
+    <!--<button type="button" class="btn btn-primary" type="button">Suggestions</button> -->
+</div>
+<div class="wrapper">        
+    <input type="button" onclick="location.href='contact-me.html';" class="btn btn-primary mt-4 mb-3" value="Contact" />
+   <!-- <button type="button" class="btn btn-primary" type="button">Contact!</button> -->
+</div>
+</div>
     </nav>
     
   </header>
@@ -72,17 +58,16 @@
   <main>
   
     <div class="container">
-      <h1 class="mt-4 mb-3">About Me!</h1>
+      <h1 class="mt-4 mb-3">Hello, Welcome To My Page!</h1>
       <div class="row">
         <div class="col-md-4">
           <div class="card mb-4">
             
-            <iframe width="355" height="700" src="https://www.youtube.com/embed/eCW0zyDGuXc?si=TBzp-ixy4E51OMro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+            <iframe width="365" height="400" src="https://www.youtube.com/embed/lzUeUx4WfwA?si=uflRb22ssHsJa67p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <div class="card-body d-grid gap-2">
-              <h5 class="mt-4 mb-4 card-title">When We First Talked by PBS Eons</h5>
-              <p class="card-text">The evolution of our ability to speak is its own epic saga and it’s worth pausing to appreciate that. It’s taken several million years to get to this moment where we can tell you about how it took several million years for us to get here.
-</p><br>
-              <a href="https://youtu.be/eCW0zyDGuXc?si=BNTbfAfrhGMHzitX" type="button" class="btn btn-primary mt-4 mb-3">Read More</a>
+              <h5 class="mt-4 mb-4 card-title">Stoned Ape Theory Explained</h5>
+              <p class="card-text">Animation of the Stoned Ape Theory popularized by Paul Stamets to explain how human beings evolved from monkeys into humans and evolved the ability of language.</p><br>
+              <input type="button" onclick="location.href='library.html';" class="btn btn-primary mt-4 mb-3" value="Read More" />
             </div>
           </div>
         </div>
@@ -96,7 +81,7 @@
               <h5 class="mt-4 mb-4 card-title">I love to learn languages!</h5>
               <p class="card-text">With my experience in learning several human languages, I decided to embark on the new journey of learning computer languages. I am currently studying Mandarin and American Sign Language with plans on also studying Spanish and German.</p>
               <p class="card-text">My love for languages started as a child, thumbing through books at the local library on how to learn various languages. I dreamt of the day I would be old enough to take classes and learn as many languages as my brain could hold. A large part of language learning is learning about cultures, history, traditions, and learning to think how other people think who speak those languages natively. It gives an opportunity to see from others' perspectives.</p>
-  
+  <input type="button" onclick="location.href='about-me.html';" class="btn btn-primary mt-4 mb-3" value="More About Me" />
             </div>
           </div>
         </div>
@@ -106,13 +91,11 @@
         <div class="col-md-4">
           <div class="card mb-4">
             
-            <img src="imagestoned.jpg" class="card-img-top">
+            <img src="projectfiveimgfive.jpg" class="card-img-top">
             <div class="card-body d-grid gap-2">
-              <h5 class="mt-4 mb-4 card-title">The Stoned Ape Theory</h5>
-              <p class="card-text">How did the human brain triple in size in just two million years?
-
-According to the “Stoned Ape Theory” developed by Terrence McKenna and his brother Dennis McKenna...</p><br>
-              <a href="https://fantasticfungi.com/the-stoned-ape/" type="button" class="btn btn-primary mt-4 mb-3">Read More</a>
+              <h5 class="mt-4 mb-4 card-title">FAQ: How Did Language Begin?</h5>
+              <p class="card-text">In asking about the origins of human language, we first have to make clear what the question is. The question is not how languages gradually developed over time into the languages of the world today. Rather, it is how the human</p><br>
+              <input type="button" onclick="location.href='library.html';" class="btn btn-primary mt-4 mb-3" value="Read More" />
             </div>
           </div>
         </div>
