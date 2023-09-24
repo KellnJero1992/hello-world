@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Slider Exercise</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1>Image Slider</h1>
+  <div class="container">
+    <div class="project-heading">
+      <h1 class="title">Image Slider</h1>
+      <div class="subtitle">Click the buttons to change the image!</div>
+    </div>
+
+    <div id="slider">
+      <img src="projectfiveimgseven.jpg" alt="Image 1">
+      <img src="projectfiveimgten.jpg" alt="Image 2">
+      <img src="projectfour.jpg" alt="Image 3">
+      <img src="projectmain.JPG" alt="Image 4">
+      <button id="prev">&lt;</button>
+      <button id="next">&gt;</button>
+    </div>
+  </div>
+  <!-- Write your HTML here -->
+
+
+  <script src="./script.js"></script>
+</body>
+</html>
